@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="z)6Z6_]3FQhF$+6esCJD" x="20" y="20"><statement name="HANDLER"><block type="device_show_number" id="RJ*{cno?cfJv;Rh8f`FS"><value name="number"><shadow type="math_number" id="b9UMeJXd.ZeXhcgei3;a"><field name="NUM">404</field></shadow></value><next><block type="device_show_leds" id="RDt9roMY$E?+N0d8[N*l"><field name="LEDS">`
+        . # . . # 
+        . # . # . 
+        . # # . . 
+        . # . # . 
+        . # . . #
+        `</field></block></next></block></statement></block><block type="device_button_event" id="ky[[{aeCS1=Me==DiC80" x="248" y="19"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="yXH3~m$(=/g/,X%!~kVO"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # # # # # 
+        # . # . # 
+        # # # # #
+        `</field></block></statement></block><block type="device_button_event" id="iI5gevnB;yJ]QIU.Cfz_" x="527" y="69"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="^Zng*T5I=:VTSuwFaDhG"><field name="i">IconNames.Rabbit</field></block></statement></block><block type="device_button_event" id="{}D$j*{^=LQ!,kR/Y.n~" x="594" y="233"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_icon" id="{Q}Kw7+cSxqgq/?iRP,c"><field name="i">IconNames.QuarterNote</field><next><block type="device_show_leds" id="3bt59`vg0*8x%$}/?FuZ"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block></xml>
