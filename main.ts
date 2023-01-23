@@ -8,16 +8,6 @@ input.onButtonPressed(Button.A, function () {
         . # # # .
         `)
 })
-input.onGesture(Gesture.LogoUp, function () {
-    basic.showString("ok")
-    basic.showLeds(`
-        # # . # #
-        # # . # #
-        . . . . .
-        # . . . #
-        . # # # .
-        `)
-})
 input.onGesture(Gesture.TiltLeft, function () {
     basic.showLeds(`
         # # # # #
@@ -46,6 +36,15 @@ input.onGesture(Gesture.TiltLeft, function () {
         # # # . #
         # . # . #
         # . # . #
+        `)
+})
+input.onGesture(Gesture.ScreenUp, function () {
+    basic.showLeds(`
+        . # # # .
+        . # . # .
+        . . # # .
+        . . . . .
+        . . # . .
         `)
 })
 input.onButtonPressed(Button.AB, function () {
@@ -77,7 +76,13 @@ input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Rabbit)
 })
 input.onGesture(Gesture.Shake, function () {
-    basic.showNumber(360)
+    basic.showLeds(`
+        # . # . #
+        # . # # #
+        # # # # .
+        # # # # .
+        # . # # #
+        `)
 })
 input.onGesture(Gesture.LogoDown, function () {
     basic.showLeds(`
@@ -97,16 +102,53 @@ basic.showLeds(`
     # # # # #
     `)
 basic.showLeds(`
+    # # # # #
     # . # . #
+    # # # # #
     # . # . #
-    # . # . #
-    # . # . #
-    # . # . #
+    # # # # #
     `)
 basic.showLeds(`
     # # # # #
-    # . # . #
     # # # # #
-    # . # . #
+    # # # # #
+    # # # # #
     # # # # #
     `)
+basic.forever(function () {
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . # . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . # . .
+        . # . # .
+        . . # . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . # . .
+        . # . # .
+        # . . . #
+        . # . # .
+        . . # . .
+        `)
+    basic.showLeds(`
+        . # . # .
+        # . . . #
+        . . . . .
+        # . . . #
+        . # . # .
+        `)
+    basic.showLeds(`
+        # . . . #
+        . . . . .
+        . . . . .
+        . . . . .
+        # . . . #
+        `)
+})
