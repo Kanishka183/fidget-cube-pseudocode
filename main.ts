@@ -48,6 +48,7 @@ input.onGesture(Gesture.ScreenUp, function () {
         `)
 })
 input.onButtonPressed(Button.AB, function () {
+    basic.showIcon(IconNames.Rabbit)
     basic.showIcon(IconNames.QuarterNote)
     basic.showLeds(`
         . . . . .
@@ -115,40 +116,3 @@ basic.showLeds(`
     # # # # #
     # # # # #
     `)
-basic.forever(function () {
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . # . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . # . .
-        . # . # .
-        . . # . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . . # . .
-        . # . # .
-        # . . . #
-        . # . # .
-        . . # . .
-        `)
-    basic.showLeds(`
-        . # . # .
-        # . . . #
-        . . . . .
-        # . . . #
-        . # . # .
-        `)
-    basic.showLeds(`
-        # . . . #
-        . . . . .
-        . . . . .
-        . . . . .
-        # . . . #
-        `)
-})
