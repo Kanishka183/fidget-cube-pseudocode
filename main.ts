@@ -75,6 +75,7 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Rabbit)
+    basic.showString("hi")
 })
 input.onGesture(Gesture.Shake, function () {
     basic.showLeds(`
