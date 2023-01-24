@@ -5,7 +5,7 @@ input.onButtonPressed(Button.A, function () {
         # . . . #
         # # # # #
         # . # . #
-        . # # # .
+        # # # # #
         `)
 })
 input.onGesture(Gesture.TiltLeft, function () {
@@ -68,7 +68,7 @@ input.onButtonPressed(Button.AB, function () {
         . . . . .
         . . . . .
         . . . . .
-        . . . . .
+        # . . . .
         # . . . .
         `)
     basic.clearScreen()
@@ -76,6 +76,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Rabbit)
     basic.showString("hi")
+    music.playMelody("G B A G F A B A ", 250)
 })
 input.onGesture(Gesture.Shake, function () {
     basic.showLeds(`
